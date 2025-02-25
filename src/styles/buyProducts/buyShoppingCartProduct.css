@@ -1,0 +1,20 @@
+.edu-au-vic-wa-nt-guides {
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    font-weight: 500;
+    font-optical-sizing: auto;
+    color: #5c7080;
+}
+
+.google-font-pacific {
+    font-family: 'Edu AU VIC WA NT Guides', cursive;
+    font-weight: 500;
+    color: grey;
+  }
+  
+  /* Clase para la fuente 'Pacifico' */
+  .pacific {
+    font-family: 'Pacifico', cursive;
+    color: rgb(79, 103, 142);
+    font-size: xx-large;
+    text-align: center;
+  }

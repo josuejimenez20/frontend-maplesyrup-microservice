@@ -1,0 +1,43 @@
+.edu-au-vic-wa-nt-guides-font {
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    font-weight: 500;
+    font-optical-sizing: auto;
+    color: #5c7080;
+    margin: 0.2em 0 1em 0;
+}
+
+.p-edu-au-vic-wa-nt-guides-font{
+    font-size: x-large;
+}
+
+/* Clase para la fuente 'Edu AU VIC WA NT Guides' */
+.google-font-pacific {
+    font-family: 'Edu AU VIC WA NT Guides', cursive;
+    font-weight: 500;
+    color: grey;
+}
+
+/* Clase para la fuente 'Pacifico' */
+.pacific {
+    font-family: 'Pacifico', cursive;
+    color: rgb(79, 103, 142);
+    font-size: x-large;
+    text-align: center;
+}
+
+#textOfCompany {
+    display: flex;
+    flex-direction: row;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    font-size: larger;
+    text-align: center;
+    height: 20em;
+    padding: 0 10% 0 10%;
+    color: rgba(245, 245, 245, 0.729);
+}
+
+.imageBuyProduct {
+    width: 50%;
+    height: 50%;
+}
