@@ -25,6 +25,7 @@ export function AppRouter() {
 
     <Routes>
       <Route path='*' element={<NotFound />} />
+      <Route path="/health-check" element={<h2>Health Check Status 200</h2>} />
       <Route path="/" element={<Home />} />
       <Route path="/home/*" element={<Home />} />
       <Route path="/SellTop" element={<SellTopProducts />} />
