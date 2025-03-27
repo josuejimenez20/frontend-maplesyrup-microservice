@@ -4,7 +4,7 @@ import {
     fetchGetAllOrdersSuccess,
     fetchGetAllOrdersFailure
 } from "../../../slices/ultimateUser/orderManagement/getAllOrdersSlice";
-const apiEndpoint = import.meta.env.VITE_API_ENDPOINT;
+const apiEndpoint = import.meta.env.VITE_PRODUCT_MICROSERVICE_API_ENDPOINT;
 
 
 export const getAllOrdersAction = () => async (dispatch) => {

@@ -4,7 +4,7 @@ import {
     fetchEditFailure,
     fetchEditUserSuccess
 } from "../../slices/users/editUserSlice";
-const apiEndpoint = import.meta.env.VITE_API_ENDPOINT;
+
 const userMicroserviceEndpoint = import.meta.env.VITE_USER_MICROSERVICE_API_ENDPOINT;
 
 export const EditInformationUser = (editInformationUser) => async (dispatch) => {

@@ -4,7 +4,7 @@ import {
     fetchProductsFailure,
     fetchProductsSuccess,
 } from "../../slices/managmentProducts/products/listProductsSlice";
-const apiEndpoint = import.meta.env.VITE_API_ENDPOINT;
+const apiEndpoint = import.meta.env.VITE_PRODUCT_MICROSERVICE_API_ENDPOINT;
 
 // Function for get all products
 // The function will have a param for get product for parts

@@ -4,7 +4,7 @@ import {
     fetchUserInformationSuccess,
     fetchUserInformationFailure
 } from "../../slices/users/informationUserSlice";
-const apiEndpoint = import.meta.env.VITE_API_ENDPOINT;
+
 const userMicroserviceEndpoint = import.meta.env.VITE_USER_MICROSERVICE_API_ENDPOINT;
 
 export const GetInformationUser = (id_user, email, password) => async (dispatch) => {
