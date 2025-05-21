@@ -13,6 +13,7 @@ export const GetListProducts = () => async (dispatch) => {
 
     try {
         dispatch(fetchProducts());
+        console.log(`${productApiEndpoint}/products`);
         const { data } = await axios.get(`${productApiEndpoint}/products`);
         dispatch(fetchProductsSuccess(data.data));
     } catch (error) {
